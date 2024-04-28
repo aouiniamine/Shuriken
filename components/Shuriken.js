@@ -3,12 +3,11 @@ import { StyleSheet, View } from "react-native";
 export default function Shuriken () {
     return (
         <View style={style.shuriken}>
-            <View style={style.centerRing}/>
-            
             <View style={style.blade1}/>
             <View style={style.blade2}/>
             <View style={style.shadowSlice1}/>
             <View style={style.shadowSlice2}/>
+            <View style={style.centerRing}/>
         </View>
     )
 }
@@ -27,7 +26,6 @@ const style = StyleSheet.create({
         width: 40,
         height: 40,
         borderRadius: 100,
-        zIndex: 50
     },
     blade1:{
         height: 90,
